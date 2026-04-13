@@ -6,21 +6,21 @@
 
 A high-performance, quantum-sourced entropy engine designed for next-generation firewall protection and ethical hacking defense mechanisms.
 
-## 🌌 Overview
+##  Overview
 Traditional Pseudo-Random Number Generators (PRNGs) are deterministic and vulnerable to state-compromise attacks. This project implements a **Quantum Random Number Generator (QRNG)** that leverages the inherent non-determinism of quantum superposition to provide "True Randomness" for cryptographic security.
 
-## 🚀 Key Modules
+##  Key Modules
 - **Quantum Core**: Circuit-level entropy generation using Qiskit.
 - **Post-Processing Engine**: C++ based Von Neumann bitstream balancing for zero-bias output.
 - **Firewall Integration**: Real-time entropy injection hooks for packet filtering and session protection.
 - **QKD Simulation**: Implementation of the BB84 protocol for quantum-secure key exchange.
 
-## 🛠️ Technology Stack
+##  Technology Stack
 - **Language**: Python 3.x, C++ 17
 - **Frameworks**: Qiskit, Aer Simulator
 - **Build System**: CMake (Optimized for `-O3` and `LTO`)
 
-## 📂 Project Structure
+##  Project Structure
 ```text
 ├── config/             # Security parameters and firewall configurations
 ├── docs/               # Technical specifications and research notes
@@ -31,13 +31,13 @@ Traditional Pseudo-Random Number Generators (PRNGs) are deterministic and vulner
 └── CMakeLists.txt      # Optimized build configuration
 ```
 
-## 📈 Performance
+##  Performance
 The system is optimized for high-throughput firewall environments. Use the performance benchmarking tool to verify your local configuration:
 ```bash
 python tests/performance_bench.py
 ```
 
-## 🛡️ Ethical Hacking Protection
+##  Ethical Hacking Protection
 This project is built for defensive construction. By injecting quantum entropy into firewall parameters, we eliminate predictability in security protocols, making systems resilient against advanced adversarial pattern-matching.
 
 ---
